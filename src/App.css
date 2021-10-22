@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.brands,
+.products,
+.contact-us,
+.buy,
+.toyota, /* each page's content */
+.honda,
+.mazda,
+.nissan {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.home {
+  background-image: url('./images/home.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.brands {
+  background-image: url('./images/brands.jpg'); /* image urls */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 25px;
+}
+
+.products {
+  color: black;
+  font-size: 50px;
+}
+
+.contact-us {
+  background-image: url('./images/skyline.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 45;
+  text-align: right;
+}
+
+.buy {
+  color: black;
+  font-size: 45px;
+}
+
+.toyota {
+  background-image: url('./images/supra.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.nissan {
+  background-image: url('./images/nissan.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.honda {
+  background-image: url('./images/nsx.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.mazda {
+  background-image: url('./images/fd-rx7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
